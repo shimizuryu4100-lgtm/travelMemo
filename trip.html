@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5/6(水)</title>
+  <style>
+    h1, h2,li{
+        -webkit-text-stroke: 0.05px rgb(0, 0, 0);
+    }
+
+    body { font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+        margin: 20px; line-height: 1.6;
+        font-size: 28px;
+        color: rgb(0, 0, 0);
+    }
+    body {
+        color: #ff6600;
+        text-shadow: 1px 1px 3px rgba(255, 255, 255, 0);
+    }
+    body {
+        background-image: url("58726-25-dd3014a9c9b420df4216f54529d93588-1920x1280.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    label {
+        color: #d6015a;
+    }
+    p {
+        font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+        margin: 20px; line-height: 1.6;
+        font-size: 25px;
+        color: rgb(255, 0, 0);
+    }
+    p2 {
+        font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+        margin: 20px; line-height: 1.6;
+        font-size: 30px;
+        color: rgb(202, 0, 78);
+    }
+
+    h1 { color: #960000; }
+    h2 { color: #002fff; }
+    .day1 { margin-top: -30px; padding: 10px; border-left: 4px solid #ff7b00b0; }
+    .day2 { margin-top: -20px; padding: 10px; border-left: 4px solid #00ffff; }
+    .day3 { margin-top: 160px; padding: 10px; border-left: 4px solid #ff0000; }
+  </style>
+</head>
+<br>
+
+<h1>5/6(水)</h1>
+<p>★候補★</p>
+
+<div class="day1">
+  <h2>1.立川</h2>
+  <ul>
+    <li>
+        <a href="https://www.instagram.com/hidamari_date/reel/DX8zKLjRknP/" target="_blank">
+            TOKYO FARM VILLAGE
+        </a>
+        <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/hidamari_date/reel/DX8zKLjRknP/" data-instgrm-version="14"></blockquote> -->
+    </li>
+    <li>FARM BASEL</li>
+
+    <li>
+        <a href="https://www.instagram.com/p/C45aXc-St14/" target="_blank">
+            昭和記念公園 フラワーフェス 
+        </a>
+    </li>
+    <li>
+        PAPER MOON green springs
+    </li>
+  </ul>
+</div>
+
+<div class="day2">
+  <h2>2.鎌倉</h2>
+  <ul>
+    <a href="https://www.instagram.com/p/DUR42L7kxEi/" target="_blank">
+        <li>パンとエスプレッソと 由比ガ浜商店：鎌倉駅徒歩11分</li>
+        <label>古民家リノベのベーカリー🍞</label>
+        <li>松原庵：鎌倉駅徒歩20分or由比ヶ浜駅徒歩4分</li>
+        <label>日本家屋のそば屋　予約可！</label>
+        <li>CREAMAHOP：逗子駅徒歩6分</li>
+        <label>神奈川で人気のアイスクリーム！！！🍨</label>
+        <li>アンダーザパルモ：逗子駅バス9分</li>
+        <label>夕焼けのタイミングで行くのがおすすめの海に面したレストラン!!</label>
+    </a>
+  </ul>
+</div>
+
+<div class="day3">
+  <h2>3.品川</h2>
+  <ul>
+    <li>
+        <a href="https://www.instagram.com/aquapark_official/reel/DXiRbU6jA-S/" target="_blank">
+            FLOWER AQUARIUM by NAKED
+        </a>
+        ：品川駅徒歩2分
+    </li>
+    <label>マクセル アクアパーク品川</label>※最終入場20:00
+  
+  </ul>
+  <script async src="//www.instagram.com/embed.js"></script>
+</div>
+</br>
+
+
+
+
+<button id="surprise-btn">🌸</button>
+
+<div id="quokka-popup">
+  <img src="quokka.png" alt="quokka">
+  <p2>お疲れ様！笑顔が一番！これからも応援してるよ！！！</p2>
+</div>
+
+<style>
+  #surprise-btn {
+    position: fixed;
+    bottom: 15px;
+    left: 22px;
+    padding: 12px 20px;
+    font-size: 20px;
+    background: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  #surprise-btn:hover {
+    background: #9b9b9b;
+  }
+
+  #quokka-popup {
+    position: fixed;
+    bottom: -250px; /* 最初は画面外 */
+    right: 20px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    padding: 15px 20px;
+    /* border-radius: 15px; */
+    font-size: 22px;
+    color: #ff6600;
+    font-family: "Noto Sans JP", sans-serif;
+    /* box-shadow: 0 0 15px rgb(255, 255, 255); */
+    transition: bottom 1.7s ease;
+    z-index: 9999;
+    text-align: center;
+  }
+
+  #quokka-popup img {
+    width: 120px;
+    margin-bottom: 12px;
+  }
+</style>
+
+<script>
+  document.getElementById("surprise-btn").addEventListener("click", () => {
+    document.getElementById("quokka-popup").style.bottom = "15px";
+  });
+</script>
+
+</body>
+</html>
